@@ -1,3 +1,4 @@
+// Activity 1:Arithmetic Operation
 // Task 1
 let m=21;
 let n=13;
@@ -23,6 +24,7 @@ let i=49;
 let j=7;
 console.log(i%j); // 0
 
+// Activity 2:Assignment Operation
 //Task 6
 let k=5;
 k+=2;
@@ -34,7 +36,7 @@ l-=1;
 console.log(l); // 4
 
 
-
+//Activity 3:Comparison Operation
 //Task 8
 console.log(9>3); // true
 console.log(9<5); // false
@@ -49,6 +51,7 @@ let r="25";
 console.log(t==r);  // true
 console.log(t===r); // false
 
+//Activity 4:Logical Operation
 //Task 11
 let v=64;
 while(v>0 && v%2==0){
@@ -66,6 +69,7 @@ else{
 if(!false){
     console.log("executed");} //executed
 
+//Activity 5:Ternary Operation
 //Task 14
-let num=-19;
+let num=-21;
 console.log(num>=0 ? "positive" : "negative"); //Output:Negative
